@@ -3,12 +3,12 @@ using BepInEx.Configuration;
 using BepInEx.Logging;
 using HarmonyLib;
 using Pathea.ActorNs;
-using System.Reflection;
 using UnityEngine;
+using System.Reflection;
 
-namespace InvincibilityMod
+namespace GodMode
 {
-    [BepInPlugin("yourname.Invincibility", "Invincibility Mod", "1.0.0")]
+    [BepInPlugin("MarGus.GodMode", "GodMode Mod", "1.0.0")]
     public class BepInExPlugin : BaseUnityPlugin
     {
         private static BepInExPlugin context;
@@ -27,34 +27,33 @@ namespace InvincibilityMod
             context = this;
 
             modEnabled = Config.Bind("General", "Enabled", true, "Enable this mod");
-            isDebug = Config.Bind("General", "IsDebug", false, "Enable debug logs");
+            isDebug = Config.Bind("General", "IsDebug", true, "Enable debug logs");
 
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
 
-            Dbgl("Invincibility Mod Loaded");
+            Dbgl("GodMode Mod Loaded!");
         }
 
-        // PATCH: Prevent HP from decreasing
-        [HarmonyPatch(typeof(Actor), "ApplyAttrChange")]
-        static class Actor_ApplyAttrChange_Patch
+        // Patch Player.Update to fill health every frame
+        [HarmonyPatch(typeof(Player), "Update")]
+        static class Player_Update_Patch
         {
-            static bool Prefix(Actor __instance, ActorRunTimeAttrType type, ref float value)
+            static void Prefix(Player __instance)
             {
-                if (!modEnabled.Value)
-                    return true;
+                if (!modEnabled.Value || __instance.actor == null)
+                    return;
 
-                // Only care about HP damage
-                if (type == ActorRunTimeAttrType.Hp && value < 0)
+                // Fill player health to max every frame
+                float currentHp = __instance.actor.GetAttr(ActorRunTimeAttrType.Hp);
+                float maxHp = __instance.actor.GetAttr(ActorAttrType.HpMax);
+
+                if (currentHp < maxHp)
                 {
-                    // Check if this actor belongs to the player
-                    if (__instance == Player.Self?.actor)
-                    {
-                        Dbgl($"Blocked damage: {value}");
-                        return false; // cancel damage
-                    }
+                    float diff = maxHp - currentHp;
+                    __instance.actor.ApplyAttrChange(ActorRunTimeAttrType.Hp, diff);
+                    __instance.actor.ShowHpChangeUI(diff);
+                    Dbgl($"Refilled {diff} HP to Player. Current HP: {__instance.actor.GetAttr(ActorRunTimeAttrType.Hp)}");
                 }
-
-                return true;
             }
         }
     }

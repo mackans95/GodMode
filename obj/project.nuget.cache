@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OYNIDSsn9DY=",
+  "dgSpecHash": "a4appKYHI3I=",
   "success": true,
-  "projectFilePath": "/Users/marcusgustafsson/Workspace/GodMode/GodMode.csproj",
-  "expectedPackageFiles": [
-    "/Users/marcusgustafsson/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "/Users/marcusgustafsson/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.3/microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Marcus\\Workspace\\GodMode\\GodMode.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

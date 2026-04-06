@@ -1,0 +1,10 @@
+C:\Users\Marcus\Workspace\GodMode\bin\Debug\net472\GodMode.dll
+C:\Users\Marcus\Workspace\GodMode\bin\Debug\net472\GodMode.pdb
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.csproj.AssemblyReference.cache
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.AssemblyInfoInputs.cache
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.AssemblyInfo.cs
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.sourcelink.json
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.dll
+C:\Users\Marcus\Workspace\GodMode\obj\Debug\net472\GodMode.pdb

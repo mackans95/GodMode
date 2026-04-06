@@ -1,24 +1,20 @@
-# Invincibility Mod (My Time At Sandrock)
+# \# GodMode Mod
 
-Makes the player completely immune to damage.
+# Instant God Mode for \[Sandrock].
 
-## Features
-- Prevents all HP loss
-- Configurable via BepInEx config
-- Debug logging support
+# 
 
-## Installation
-1. Install BepInEx
-2. Place the DLL into:
-   BepInEx/plugins/
+# \## Installation
 
-## Config
-- Enabled: turn mod on/off
-- IsDebug: enable logging
+# 1\. Copy `GodMode.dll` to `BepInEx/plugins/` in your game folder.
 
-## Notes
-- Only affects the player
-- Does not modify enemies
+# 2\. Launch the game. Make sure the mod is enabled in the config.
 
-## Author
-Marcus Gustafsson
+# 
+
+# \## Configuration
+
+# \- Enabled: true/false
+
+# \- IsDebug: true/false (shows logs)
+

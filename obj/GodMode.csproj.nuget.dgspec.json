@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marcusgustafsson/Workspace/GodMode/GodMode.csproj": {}
+    "C:\\Users\\Marcus\\Workspace\\GodMode\\GodMode.csproj": {}
   },
   "projects": {
-    "/Users/marcusgustafsson/Workspace/GodMode/GodMode.csproj": {
+    "C:\\Users\\Marcus\\Workspace\\GodMode\\GodMode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marcusgustafsson/Workspace/GodMode/GodMode.csproj",
+        "projectUniqueName": "C:\\Users\\Marcus\\Workspace\\GodMode\\GodMode.csproj",
         "projectName": "GodMode",
-        "projectPath": "/Users/marcusgustafsson/Workspace/GodMode/GodMode.csproj",
-        "packagesPath": "/Users/marcusgustafsson/.nuget/packages/",
-        "outputPath": "/Users/marcusgustafsson/Workspace/GodMode/obj/",
+        "projectPath": "C:\\Users\\Marcus\\Workspace\\GodMode\\GodMode.csproj",
+        "packagesPath": "C:\\Users\\Marcus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marcus\\Workspace\\GodMode\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/marcusgustafsson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Marcus\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
@@ -43,15 +43,7 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "dependencies": {
-            "Microsoft.NETFramework.ReferenceAssemblies": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,3 +2,13 @@
 /Users/marcusgustafsson/Workspace/GodMode/obj/Release/net472/GodMode.AssemblyInfoInputs.cache
 /Users/marcusgustafsson/Workspace/GodMode/obj/Release/net472/GodMode.AssemblyInfo.cs
 /Users/marcusgustafsson/Workspace/GodMode/obj/Release/net472/GodMode.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Workspace\GodMode\bin\Release\net472\GodMode.dll
+C:\Users\Marcus\Workspace\GodMode\bin\Release\net472\GodMode.pdb
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.csproj.AssemblyReference.cache
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.AssemblyInfoInputs.cache
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.AssemblyInfo.cs
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.csproj.CoreCompileInputs.cache
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.sourcelink.json
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.dll
+C:\Users\Marcus\Workspace\GodMode\obj\Release\net472\GodMode.pdb
