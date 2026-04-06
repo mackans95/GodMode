@@ -34,7 +34,7 @@ namespace GodMode
             Dbgl("GodMode Mod Loaded!");
         }
 
-        // Patch Player.Update to fill health every frame
+        // Patch Player.Update to fill health and stamina every frame
         [HarmonyPatch(typeof(Player), "Update")]
         static class Player_Update_Patch
         {
@@ -43,16 +43,28 @@ namespace GodMode
                 if (!modEnabled.Value || __instance.actor == null)
                     return;
 
-                // Fill player health to max every frame
+                // === Fill HP ===
                 float currentHp = __instance.actor.GetAttr(ActorRunTimeAttrType.Hp);
                 float maxHp = __instance.actor.GetAttr(ActorAttrType.HpMax);
 
                 if (currentHp < maxHp)
                 {
-                    float diff = maxHp - currentHp;
-                    __instance.actor.ApplyAttrChange(ActorRunTimeAttrType.Hp, diff);
-                    __instance.actor.ShowHpChangeUI(diff);
-                    Dbgl($"Refilled {diff} HP to Player. Current HP: {__instance.actor.GetAttr(ActorRunTimeAttrType.Hp)}");
+                    float diffHp = maxHp - currentHp;
+                    __instance.actor.ApplyAttrChange(ActorRunTimeAttrType.Hp, diffHp);
+                    __instance.actor.ShowHpChangeUI(diffHp);
+                    Dbgl($"Refilled {diffHp} HP to Player. Current HP: {__instance.actor.GetAttr(ActorRunTimeAttrType.Hp)}");
+                }
+
+                // === Fill Stamina ===
+                float currentSp = __instance.actor.GetAttr(ActorRunTimeAttrType.Sp);
+                float maxSp = __instance.actor.GetAttr(ActorAttrType.SpMax);
+
+                if (currentSp < maxSp)
+                {
+                    float diffSp = maxSp - currentSp;
+                    __instance.actor.ApplyAttrChange(ActorRunTimeAttrType.Sp, diffSp);
+                    __instance.actor.ShowHpChangeUI(diffSp); // You can optionally make a separate UI for stamina
+                    Dbgl($"Refilled {diffSp} Stamina to Player. Current SP: {__instance.actor.GetAttr(ActorRunTimeAttrType.Sp)}");
                 }
             }
         }

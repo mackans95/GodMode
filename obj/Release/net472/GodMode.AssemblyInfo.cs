@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GodMode")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cf4569627319c64c8461bce9e7b2d143a8bf2b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b3bfdcc0459b33f72ad914f4f1c8092591781e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("GodMode")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GodMode")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
