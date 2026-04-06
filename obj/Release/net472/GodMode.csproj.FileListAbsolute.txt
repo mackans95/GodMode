@@ -1,0 +1,4 @@
+/Users/marcusgustafsson/Workspace/GodMode/obj/Release/net472/GodMode.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcusgustafsson/Workspace/GodMode/obj/Release/net472/GodMode.AssemblyInfoInputs.cache
+/Users/marcusgustafsson/Workspace/GodMode/obj/Release/net472/GodMode.AssemblyInfo.cs
+/Users/marcusgustafsson/Workspace/GodMode/obj/Release/net472/GodMode.csproj.CoreCompileInputs.cache
