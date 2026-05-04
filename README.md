@@ -1,4 +1,4 @@
-# My Time at Sandrock - GodMode Mod
+# My Time at Sandrock - Infinite Health And Stamina Mod
 
 Infinite health and stamina (basically) with no extra setup!
 
