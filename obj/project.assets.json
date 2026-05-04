@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcus\\Workspace\\GodMode\\GodMode.csproj",
-      "projectName": "GodMode",
-      "projectPath": "C:\\Users\\Marcus\\Workspace\\GodMode\\GodMode.csproj",
+      "projectUniqueName": "C:\\Users\\Marcus\\Workspace\\GodMode\\InfiniteHealthAndStamina.csproj",
+      "projectName": "InfiniteHealthAndStamina",
+      "projectPath": "C:\\Users\\Marcus\\Workspace\\GodMode\\InfiniteHealthAndStamina.csproj",
       "packagesPath": "C:\\Users\\Marcus\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Marcus\\Workspace\\GodMode\\obj\\",
       "projectStyle": "PackageReference",
