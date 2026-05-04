@@ -2,7 +2,7 @@
 
 Infinite health and stamina (basically) with no extra setup!
 
-This mod is heavily inspired by `aedenthorn` and his `Regeneration` mod: 
+This mod is heavily inspired by `aedenthorn` and their `Regeneration` mod: 
 - Regeneration: https://www.nexusmods.com/mytimeatsandrock/mods/8
 - Other mods by `aedenthorn`: https://github.com/aedenthorn/MTASMods
 
