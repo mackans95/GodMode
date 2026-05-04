@@ -27,7 +27,7 @@ namespace GodMode
             context = this;
 
             modEnabled = Config.Bind("General", "Enabled", true, "Enable this mod");
-            isDebug = Config.Bind("General", "IsDebug", true, "Enable debug logs");
+            isDebug = Config.Bind("General", "IsDebug", false, "Enable debug logs");
 
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly(), null);
 
